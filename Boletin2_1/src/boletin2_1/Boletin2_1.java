@@ -23,7 +23,7 @@ public class Boletin2_1 {
         prezoTarifa=ler.nextFloat();
         System.out.println("teclea prezo pagado");
         prezoPagado=ler.nextFloat();
-        porcentaxeDesconto= prezoPagado*100/prezoTarifa;
+        porcentaxeDesconto= (prezoTarifa-prezoPagado)/prezoTarifa*100;
         System.out.println("a porcentaxe descontada é do "+porcentaxeDesconto+"%");
         
         
